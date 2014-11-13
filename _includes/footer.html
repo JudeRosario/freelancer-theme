@@ -37,6 +37,26 @@
                 </div>
             </div>
         </div>
+        <script>
+jQuery(function($) {        
+		function typenow( x ) {
+				$('.typetext').typist({
+				text: 'Welcome to my website'
+				})
+				}
+		function type( x ) {
+   			 		$('.typetext').typistPause(1000) // 2 sec
+					.typistRemove(23)
+					.typistAdd(x);
+					}
+		
+		
+		var myArray = new Array( "hello", "world" );
+		typenow();
+		myArray.forEach( type );
+					
+});
+        </script>
     </footer>
 
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
