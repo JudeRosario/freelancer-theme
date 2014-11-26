@@ -5,7 +5,9 @@ Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/te
 
 ## How to use
  - Place a image in `/img/portoflio/`
- - Create posts to display your projects. Use the follow as an example:
+ - Create posts to display your projects. Use the following as an example:
+
+
 ```txt
 ---
 layout: default
